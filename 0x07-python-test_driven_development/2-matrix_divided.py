@@ -36,4 +36,4 @@ def matrix_divided(matrix, div):
                 raise TypeError(msg)
             newlist.append(round(element/div, 2))
         new_matrix.append(newlist)
-    return 
+    return new_matrix
